@@ -6,15 +6,14 @@ project:
   execute-dir: project
 
 website:
-  title: "Big Data in R with Arrow"
+  title: "Deploying AI in R with {ellmer} and {shiny}: From Experimentation to Production"
   navbar:
     background: dark
-    logo: "materials/images/logo.png"
     right:
       - icon: file-certificate
         href: license-web.qmd
       - icon: github
-        href: https://github.com/posit-conf-2024/arrow
+        href: https://github.com/thisisnic/llms-shiny-workshop
         text: GitHub
 
     left:
