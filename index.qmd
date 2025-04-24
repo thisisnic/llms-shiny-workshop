@@ -31,29 +31,12 @@ Participants should have basic familiarity with R and some experience working wi
 
 *This course is for you if you:*
 
--   want to learn how to work with tabular data that is too large to fit in memory using existing R and tidyverse syntax implemented in Arrow
--   want to learn about Parquet and other file formats that are powerful alternatives to CSV files
--   want to learn how to engineer your tabular data storage for more performant access and analysis with Apache Arrow
+-   
 
 ### Workshop Prework
 
-All participants need to bring is a laptop that can connect to wifi. We will be using Posit Workbench to learn together---Workbench will be setup with all the software and data needed for the day. If you would prefer to run code locally on your own laptop, detailed instructions for software requirements and data sources are covered in [Packages & Data](setup.qmd).
-
 
 ### Workshop Schedule
-
-*"This schedule is more what you would call a 'guideline' than an actual schedule"* --- Barbossa, Pirates of the Caribbean
-
-| Time          | Activity                                                     |
-|:--------------|:-------------------------------------------------------------|
-| 09:00 - 10:30 | Session 1: Hello Arrow + Data Manipulation with Arrow I      |
-| 10:30 - 11:00 | *Coffee break*                                               |
-| 11:00 - 12:30 | Session 2: Data Engineering with Arrow                       |
-| 12:30 - 13:30 | *Lunch break*                                                |
-| 13:30 - 15:00 | Session 3: Arrow In-Memory Workflows                         |
-| 15:00 - 15:30 | *Coffee break*                                               |
-| 15:30 - 17:00 | Session 4: Data Manipulation with Arrow II + Wrapping Up     |
-
 
 
 ### Instructors
