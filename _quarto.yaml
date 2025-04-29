@@ -9,7 +9,6 @@ website:
   title: "Deploying AI in R with {ellmer} and {shiny} - From Experimentation to Production"
   navbar:
     background: dark
-    right:
     left:
       - href: index.qmd
         text: Home
