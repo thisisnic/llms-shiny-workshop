@@ -1,0 +1,36 @@
+---
+execute:
+  echo: true
+format:
+  revealjs: 
+    theme: default
+engine: knitr
+editor: source
+---
+
+# Deploying LLM-Powered Shiny Apps {#deploy}
+
+## Learning Outcomes
+
+Participants will:
+- Understand deployment options (e.g., ShinyApps.io, Posit Connect, and self-hosted solutions) and their relative merits
+- Understand how to deploy an LLM-powered Shiny app using free-tier hosting.
+- Understand how to store API keys in environment variables.
+- Have deployed their own app to Posit Cloud Connect
+
+## Deployment options and relative merits
+
+## Demo: Deploying an app to Posit Connect Cloud
+
+## Exercise
+* Add environment variable to Posit Connect Cloud
+* Deploy their app and test it live
+
+## Wrap-up discussion
+
+## Next steps
+
+## Best practices
+
+## Scaling advice
+

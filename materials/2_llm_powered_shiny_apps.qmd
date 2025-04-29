@@ -8,22 +8,34 @@ engine: knitr
 editor: source
 ---
 
-# The {ellmer} Package and Prompt Engineering {#ellmer}
+# Creating LLM-Powered Shiny Apps {#llmshiny}
 
 ## Learning Outcomes
 
 Participants will understand how to:
-* Set up {ellmer} and connect to an LLM provider (e.g., OpenAI).
-* Make basic API calls and process responses.
+- How to structure Shiny apps with {ellmer} components, referencing the provided template
+- How to implement basic input validation to mitigate prompt injection risks
+- How to get structured outputs from it
+- Best practices for reactivity so not making too many requests
 
-## Intro and overview of workshop
 
-## What is {ellmer}?
+## Shiny app basics and where {ellmer} should be integrated 
+
+(as app not package for simplicity)
+
+## Storing prompts in inst and using glue-like syntax
+
+## Input validation (and just using selectors and templating etc)
+
+## Retrieving structured output
 
 ## Demo
-* Setting up API key
-* Making a request
+- Walkthrough of the provided Shiny app skeleton:
+- Review UI and server structure.
+- Identify where {ellmer} should be integrated and prompts stored
 
-## Best practices and gotchas
+## Limiting token usage via reactivity (button press) and monitoring usage 
 
-## Exercise: Modify prompt parameters and analyse output differences
+## Preventing too many calls within short space of time (button reclick?)
+
+## Exercise: Creating own prompt templates in the app and Adding input validation for free text fields
