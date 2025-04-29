@@ -25,7 +25,9 @@ Participants will understand how to:
 
 ## Storing prompts in inst and using glue-like syntax
 
-## Input validation (and just using selectors and templating etc)
+## Input validation
+
+* Free text == dangerous + examples of past hacks from books
 
 ## Retrieving structured output
 
@@ -35,6 +37,8 @@ Participants will understand how to:
 - Identify where {ellmer} should be integrated and prompts stored
 
 ## Limiting token usage via reactivity (button press) and monitoring usage 
+
+## Limiting usage with Gemini
 
 ## Preventing too many calls within short space of time (button reclick?)
 

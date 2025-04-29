@@ -10,6 +10,8 @@ editor: source
 
 # The {ellmer} Package and Prompt Engineering {#ellmer}
 
+<!-- TODO: fill in this section with lots of cool images and just enough text to stand alone but lots of notes to use as speaker notes!! -->
+
 ## Learning Outcomes
 
 Participants will understand how to:
@@ -18,12 +20,59 @@ Participants will understand how to:
 
 ## Intro and overview of workshop
 
+* Part 1 - Introduction to LLMs, {{ellmer}}, and prompt engineering
+* Part 2 - Creating LLM-Powered Shiny Apps
+* Part 3 - Deploying LLM-Powered Shiny Apps 
+
+## A few notes
+
+* Focus on doing and key gotchas
+* At your own risk!
+
+# LLMs
+
+## Use Cases for LLMs in Data Science
+
+# Challenges Using LLMs in Data Science
+
+## Misinformation and AI hallucination
+
+## Ethics
+
+* Technical
+* Decision making about people's lives
+* Environmental - don't use LLMs when don't need, use pretrained models (e.g. vector dB search)
+
+## Security
+
+* What data does the model have access to? If access to sensitive data, much higher risks
+* What kind of input does the user provide? If text higher risk
+* Who has access and are they authenticated? Public access is risky, managed access lowest risk
+
+## Risks of using in Shiny* Cost! Unmanaged reactivity resulting in too many API calls
+* Solution - only trigger API call upon button push. Show cost to end user to influence behaviour. Track API calls in app and limit number of button pushes is app. Use a cache and return cached result for repeated button pushes. 
+
+## Mitigating these risks
+
+* Control of what inputs
+* Control of API usage
+
+# Using LLMs in R with {ellmer}
+
 ## What is {ellmer}?
 
 ## Demo
+
 * Setting up API key
 * Making a request
 
 ## Best practices and gotchas
+
+* Human-in-the-loop for code generation
+* Locally deployed model for sensitive data
+* Minimise what data is sent to the model
+* Role-based access
+* Active monitoring 
+* Informing users how much to depend on output and its limitations
 
 ## Exercise: Modify prompt parameters and analyse output differences
