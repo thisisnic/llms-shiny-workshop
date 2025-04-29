@@ -1,5 +1,5 @@
 ---
-title: Deploying AI in R with {ellmer} and {shiny}: From Experimentation to Production
+title: Deploying AI in R with {ellmer} and {shiny} - From Experimentation to Production
 subtitle: Half-Day EARL (2025) Workshop
 editor: source
 ---
@@ -8,10 +8,7 @@ by Nic Crane
 
 ------------------------------------------------------------------------
 
-🗓 October 14th 2024
-⏰ 13:00 - 17:00\
-
-------------------------------------------------------------------------
+## 🗓 October 14th 2025 ⏰ 13:30- 17:00 
 
 ### Workshop Overview
 
@@ -19,30 +16,28 @@ Large language models (LLMs) are transforming how we work, but using them effect
 
 This hands-on workshop will guide you through practical applications of LLMs in R, using {ellmer} to integrate AI capabilities into Shiny apps. We’ll cover:
 
-* prompt design and engineering
-* the {ellmer} R package
-* creating LLM-powered Shiny apps
-* deploying LLM-powered Shiny apps
+-   prompt design and engineering
+-   the {ellmer} R package
+-   creating LLM-powered Shiny apps
+-   deploying LLM-powered Shiny apps
 
 Throughout the session, we'll balance hands-on coding with discussion of best practices for deploying LLM-powered automation responsibly. Whether you're an R developer exploring AI for the first time or looking to integrate LLMs into business workflows, this workshop will equip you with the tools and techniques to deploy AI-powered solutions confidently.
 
-Participants should have basic familiarity with R and some experience working with Shiny apps. Code examples and exercises will be provided to reinforce key concepts.  Information will be provided ahead of the workshop about packages to install and any other technical prerequisites.
-
-
-*This course is for you if you:*
-
--   
+Participants should have basic familiarity with R and some experience working with Shiny apps. Code examples and exercises will be provided to reinforce key concepts. Information will be provided ahead of the workshop about packages to install and any other technical prerequisites.
 
 ### Workshop Prework
 
+* TBD
 
 ### Workshop Schedule
 
+* Part 1 - Introduction
+* Part 2 - Building LLM-Powered Shiny Apps
+* Part 3 - Deployment
 
 ### Instructors
 
 [**Nic Crane**](https://niccrane.com) is an R consultant with a background in data science and software engineering. They are passionate about open source, and learning and teaching all things R. Nic is part of the core team that maintain the Arrow R package, and a co-author of "Scaling up with R and Arrow", due to be published by CRC Press later this year.
-
 
 ------------------------------------------------------------------------
 
