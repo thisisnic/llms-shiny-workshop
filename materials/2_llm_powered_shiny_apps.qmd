@@ -1,0 +1,29 @@
+---
+execute:
+  echo: true
+format:
+  revealjs: 
+    theme: default
+engine: knitr
+editor: source
+---
+
+# The {ellmer} Package and Prompt Engineering {#ellmer}
+
+## Learning Outcomes
+
+Participants will understand how to:
+* Set up {ellmer} and connect to an LLM provider (e.g., OpenAI).
+* Make basic API calls and process responses.
+
+## Intro and overview of workshop
+
+## What is {ellmer}?
+
+## Demo
+* Setting up API key
+* Making a request
+
+## Best practices and gotchas
+
+## Exercise: Modify prompt parameters and analyse output differences
