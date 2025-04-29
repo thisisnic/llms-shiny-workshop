@@ -12,6 +12,9 @@ editor: source
 
 <!-- TODO: fill in this section with lots of cool images and just enough text to stand alone but lots of notes to use as speaker notes!! -->
 
+<!-- 45 mins teaching time maximum -->
+
+
 ## Learning Outcomes
 
 Participants will understand how to:
@@ -24,14 +27,25 @@ Participants will understand how to:
 * Part 2 - Creating LLM-Powered Shiny Apps
 * Part 3 - Deploying LLM-Powered Shiny Apps 
 
-## A few notes
+## Let's go!
 
-* Focus on doing and key gotchas
-* At your own risk!
+* Lots to cover and not much time
+* Focus on enough information to get going
 
 # LLMs
 
+## Use Cases for LLMs in Software Engineering
+
+* Code generation, documentation, and testing
+* Debugging and diagnosing error messages
+* Explaining complex codebases in plain language
+
 ## Use Cases for LLMs in Data Science
+
+* Data cleaning and transformation
+* Natural language data querying
+
+## Prompt engineering best practices
 
 # Challenges Using LLMs in Data Science
 
@@ -50,6 +64,7 @@ Participants will understand how to:
 * Who has access and are they authenticated? Public access is risky, managed access lowest risk
 
 ## Risks of using in Shiny* Cost! Unmanaged reactivity resulting in too many API calls
+
 * Solution - only trigger API call upon button push. Show cost to end user to influence behaviour. Track API calls in app and limit number of button pushes is app. Use a cache and return cached result for repeated button pushes. 
 
 ## Mitigating these risks
@@ -66,7 +81,7 @@ Participants will understand how to:
 * Setting up API key
 * Making a request
 
-## Best practices and gotchas
+## Best practices for LLM-powered apps
 
 * Human-in-the-loop for code generation
 * Locally deployed model for sensitive data

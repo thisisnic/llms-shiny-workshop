@@ -10,6 +10,8 @@ editor: source
 
 # Deploying LLM-Powered Shiny Apps {#deploy}
 
+<!-- 30 mins teaching time maximum -->
+
 ## Learning Outcomes
 
 Participants will:
@@ -20,17 +22,27 @@ Participants will:
 
 ## Deployment options and relative merits
 
+* deployment options (e.g., ShinyApps.io, Posit Connect, and self-hosted solutions) and their relative merits
+
+## Posit Connect Cloud
+
+* Store secrets in environment variables - NEVER hard-code them
+* `rsconnct::writeManifest()` to track dependencies
+
+## API keys as environment variables
+
+* how to store API keys in environment variables.
+* local versus in-environment deployment
+
 ## Demo: Deploying an app to Posit Connect Cloud
 
 ## Exercise
 * Add environment variable to Posit Connect Cloud
 * Deploy their app and test it live
 
-## Wrap-up discussion
-
-## Next steps
-
-## Best practices
-
 ## Scaling advice
 
+* Fail fast: Always validate input before sending to LLMs.
+* Secure secrets: Never commit API keys.
+* No illusions: One-user testing ≠ production-ready app.
+* Have a real fallback: Plan for LLM outages or rate limits.

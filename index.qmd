@@ -23,12 +23,14 @@ This hands-on workshop will guide you through practical applications of LLMs in 
 
 Throughout the session, we'll balance hands-on coding with discussion of best practices for deploying LLM-powered automation responsibly. Whether you're an R developer exploring AI for the first time or looking to integrate LLMs into business workflows, this workshop will equip you with the tools and techniques to deploy AI-powered solutions confidently.
 
-Participants should have basic familiarity with R and some experience working with Shiny apps. Code examples and exercises will be provided to reinforce key concepts. Information will be provided ahead of the workshop about packages to install and any other technical prerequisites.
+Participants should have familiarity with R and experience working with Shiny apps. Code examples and exercises will be provided to reinforce key concepts. Information will be provided ahead of the workshop about packages to install and any other technical prerequisites.
 
 ### Workshop Prework
 
+* Bring a laptop with R and RStudio or Positron installed
 * Install the relevant packages (full list to be provided at a later date)
-* Set up an API key with Gemini
+* Set up a Gemini API key
+* Clone the starter repo locally
 
 ### Workshop Schedule
 
