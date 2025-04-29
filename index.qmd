@@ -27,7 +27,8 @@ Participants should have basic familiarity with R and some experience working wi
 
 ### Workshop Prework
 
-* TBD
+* Install the relevant packages (full list to be provided at a later date)
+* Set up an API key with Gemini
 
 ### Workshop Schedule
 
