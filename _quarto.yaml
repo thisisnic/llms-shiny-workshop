@@ -10,27 +10,9 @@ website:
   navbar:
     background: dark
     right:
-      - icon: file-certificate
-        href: license-web.qmd
-      - icon: github
-        href: https://github.com/thisisnic/llms-shiny-workshop
-        text: GitHub
-
     left:
       - href: index.qmd
         text: Home
-      - text: Slides
-        menu:
-        - text: "Welcome and introduction 👋"
-          href: materials/1_intro.qmd
-          target: "_blank"
-        - text: "Building LLM-powered Shiny apps"
-          href: materials/2_llm_shiny.qmd
-          target: "_blank"
-        - text: "Deployment"
-          href: materials/3_deployment.qmd
-          target: "_blank"
-
 format:
   html:
     theme: cosmo
